@@ -1,0 +1,312 @@
+C:\Users\USER\AppData\Local\Programs\Python\Python39\python.exe "D:/GameDev-Programming/Python/Solo Projects 3/brute force zip file open/threaded version.py"
+(1): Starting...
+(1): Started
+(1): number of letters: 1
+(1): number of letters: 2
+(1): number of letters: 3
+(1): number of letters: 4
+(1): END
+         55291252 function calls (55290680 primitive calls) in 62.142 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.261    0.261   62.142   62.142 D:\GameDev-Programming\Python\Solo Projects 3\brute force zip file open\threaded version.py:67(brute_force)
+    33648    0.120    0.000   61.619    0.002 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:2087(extractall)
+    67296    0.539    0.000   61.455    0.001 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:2123(_extract_member)
+    33648    0.060    0.000   56.386    0.002 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1966(open)
+    33648    0.137    0.000   56.318    0.002 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:2015(_open_to_read)
+    33648    0.160    0.000   56.103    0.002 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1166(__init__)
+    33648    0.036    0.000   54.840    0.002 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1205(read_init)
+    33648    0.070    0.000   54.804    0.002 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1303(get_decrypter)
+    33648    0.197    0.000   54.719    0.002 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile_aes.py:44(__init__)
+    33648    0.675    0.000   54.434    0.002 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Protocol\KDF.py:98(PBKDF2)
+   134592    0.106    0.000   35.421    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\HMAC.py:105(_pbkdf2_hmac_assist)
+   134592   34.965    0.000   35.315    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\SHA1.py:168(_pbkdf2_hmac_assist)
+   269185    0.952    0.000   13.243    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\HMAC.py:54(__init__)
+   134592    0.321    0.000    8.268    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\HMAC.py:115(copy)
+  1480516    2.619    0.000    7.544    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\SHA1.py:72(__init__)
+   538368    0.599    0.000    7.159    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\SHA1.py:148(new)
+   134593    0.090    0.000    6.974    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\HMAC.py:194(new)
+   538370    1.416    0.000    4.363    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\strxor.py:47(strxor)
+   538370    0.263    0.000    3.932    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\SHA1.py:142(new)
+  2422667    1.483    0.000    2.827    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\api.py:242(new)
+  1480518    0.500    0.000    2.767    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:157(VoidPointer)
+  1076741    1.537    0.000    2.765    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\SHA1.py:83(update)
+   100944    2.530    0.000    2.530    0.000 {built-in method nt.stat}
+  2691855    1.188    0.000    2.346    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:136(c_uint8_ptr)
+   134593    0.185    0.000    2.278    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\HMAC.py:134(digest)
+  1480518    0.595    0.000    2.267    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:148(__init__)
+   403777    0.539    0.000    2.207    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\SHA1.py:124(copy)
+    67296    0.054    0.000    1.856    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\genericpath.py:16(exists)
+   942149    0.485    0.000    1.749    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:115(create_string_buffer)
+ 10296946    1.076    0.000    1.076    0.000 {built-in method builtins.isinstance}
+   269186    0.394    0.000    1.001    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\SHA1.py:97(digest)
+  1480517    0.826    0.000    0.826    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:278(__del__)
+    33648    0.037    0.000    0.773    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\genericpath.py:39(isdir)
+    33648    0.114    0.000    0.742    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1221(process_local_header)
+  2691855    0.511    0.000    0.741    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\py3compat.py:137(byte_string)
+  2422667    0.671    0.000    0.671    0.000 {built-in method _cffi_backend.newp}
+   134594    0.235    0.000    0.602    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1102(read)
+   336480    0.384    0.000    0.519    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ntpath.py:124(splitdrive)
+  2422667    0.468    0.000    0.470    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\api.py:180(_typeof)
+5351442/5351408    0.445    0.000    0.445    0.000 {built-in method builtins.len}
+   942149    0.424    0.000    0.424    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:132(get_raw_buffer)
+    67296    0.218    0.000    0.416    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ntpath.py:450(normpath)
+   134593    0.057    0.000    0.405    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Hash\HMAC.py:95(update)
+    67296    0.173    0.000    0.384    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ntpath.py:77(join)
+    67296    0.098    0.000    0.352    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:2108(_sanitize_windows_name)
+    67296    0.032    0.000    0.341    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ntpath.py:221(dirname)
+   168242    0.318    0.000    0.318    0.000 {method 'tell' of '_io.BufferedReader' objects}
+    67296    0.170    0.000    0.309    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ntpath.py:180(split)
+  1480518    0.307    0.000    0.307    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:267(__init__)
+   201894    0.126    0.000    0.288    0.000 {method 'join' of 'str' objects}
+  2422667    0.255    0.000    0.255    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:271(get)
+  1480518    0.237    0.000    0.237    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:151(get)
+    33648    0.021    0.000    0.229    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile_aes.py:294(setup_decrypter)
+    33648    0.057    0.000    0.208    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile_aes.py:277(setup_aeszipdecrypter)
+  1749707    0.172    0.000    0.172    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:111(c_size_t)
+  1480518    0.170    0.000    0.170    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:154(address_of)
+    33648    0.074    0.000    0.119    0.000 {method 'decode' of 'bytes' objects}
+   168240    0.055    0.000    0.116    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:2120(<genexpr>)
+    33648    0.070    0.000    0.097    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1502(close)
+    67296    0.085    0.000    0.085    0.000 {method 'translate' of 'str' objects}
+   538376    0.080    0.000    0.080    0.000 {method 'replace' of 'str' objects}
+    33648    0.052    0.000    0.067    0.000 D:\GameDev-Programming\Python\Solo Projects 3\brute force zip file open\threaded version.py:62(value_reversed)
+    67300    0.031    0.000    0.061    0.000 D:\GameDev-Programming\Python\Solo Projects 3\brute force zip file open\threaded version.py:59(value)
+   168240    0.047    0.000    0.061    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:2118(<genexpr>)
+   572016    0.060    0.000    0.060    0.000 {built-in method nt.fspath}
+    67295    0.035    0.000    0.054    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1113(close)
+   134593    0.052    0.000    0.052    0.000 {built-in method _struct.pack}
+   202177    0.052    0.000    0.052    0.000 {method 'split' of 'str' objects}
+    67296    0.037    0.000    0.050    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1916(getinfo)
+   168240    0.046    0.000    0.046    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:2140(<genexpr>)
+    33648    0.017    0.000    0.045    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\encodings\cp437.py:14(decode)
+    67296    0.041    0.000    0.041    0.000 {built-in method _struct.unpack}
+    33648    0.026    0.000    0.039    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1253(raise_for_unsupported_flags)
+    33648    0.023    0.000    0.038    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1885(namelist)
+    33649    0.035    0.000    0.038    0.000 D:\GameDev-Programming\Python\Solo Projects 3\brute force zip file open\threaded version.py:37(inc)
+   134737    0.037    0.000    0.037    0.000 {method 'startswith' of 'str' objects}
+   134594    0.037    0.000    0.037    0.000 {method 'seek' of '_io.BufferedReader' objects}
+    67300    0.031    0.000    0.031    0.000 {method 'copy' of 'list' objects}
+    33648    0.030    0.000    0.030    0.000 {method 'format' of 'str' objects}
+    67296    0.030    0.000    0.030    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:846(is_dir)
+    33648    0.030    0.000    0.030    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1083(__init__)
+    33648    0.028    0.000    0.028    0.000 {built-in method _codecs.charmap_decode}
+   168245    0.028    0.000    0.028    0.000 {method 'rstrip' of 'str' objects}
+   134594    0.026    0.000    0.026    0.000 {method 'read' of '_io.BufferedReader' objects}
+    67296    0.018    0.000    0.025    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\py3compat.py:124(tobytes)
+    67296    0.016    0.000    0.022    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\ntpath.py:34(_get_bothseps)
+   134594    0.022    0.000    0.022    0.000 {method '__exit__' of '_thread.RLock' objects}
+    33648    0.021    0.000    0.021    0.000 {function ZipExtFile.close at 0x0000023D30ED7940}
+   134594    0.021    0.000    0.021    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:2019(<lambda>)
+    67296    0.020    0.000    0.020    0.000 {built-in method builtins.hasattr}
+    33648    0.019    0.000    0.019    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:2351(_fpclose)
+    33648    0.016    0.000    0.016    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1887(<listcomp>)
+    33648    0.016    0.000    0.016    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile_aes.py:72(encryption_header_length)
+    33648    0.016    0.000    0.016    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1297(get_decrypter_kwargs)
+    67591    0.013    0.000    0.013    0.000 {method 'get' of 'dict' objects}
+    33648    0.012    0.000    0.012    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:444(is_utf_filename)
+    33648    0.010    0.000    0.010    0.000 {method 'encode' of 'str' objects}
+    33649    0.010    0.000    0.010    0.000 {built-in method zlib.crc32}
+    33648    0.009    0.000    0.009    0.000 {built-in method _stat.S_ISDIR}
+    33648    0.008    0.000    0.008    0.000 {method 'seekable' of '_io.BufferedReader' objects}
+    33648    0.007    0.000    0.007    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:453(is_compressed_patch_data)
+    33648    0.007    0.000    0.007    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:440(is_encrypted)
+    33648    0.006    0.000    0.006    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:458(is_strong_encryption)
+        2    0.000    0.000    0.002    0.001 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\api.py:162(_typeof_locked)
+        2    0.000    0.000    0.002    0.001 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:551(parse_type)
+        2    0.000    0.000    0.002    0.001 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:554(parse_type_and_quals)
+        2    0.000    0.000    0.002    0.001 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:307(_parse)
+        2    0.000    0.000    0.002    0.001 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:132(parse)
+        2    0.000    0.000    0.002    0.001 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\ply\yacc.py:323(parse)
+        2    0.000    0.000    0.002    0.001 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\ply\yacc.py:1001(parseopt_notrack)
+       12    0.000    0.000    0.001    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\api.py:911(__getattr__)
+       12    0.000    0.000    0.001    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\api.py:900(make_accessor)
+       14    0.000    0.000    0.001    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\api.py:433(_get_cached_btype)
+       12    0.000    0.000    0.001    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\api.py:834(accessor_function)
+    55/11    0.000    0.000    0.001    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:56(get_cached_btype)
+   323/81    0.000    0.000    0.001    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:81(__hash__)
+        1    0.000    0.000    0.001    0.001 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Cipher\AES.py:130(new)
+        1    0.000    0.000    0.001    0.001 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Cipher\__init__.py:54(_create_cipher)
+        1    0.000    0.000    0.001    0.001 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Cipher\_mode_ctr.py:280(_create_ctr_cipher)
+       48    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_lexer.py:76(token)
+       48    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\ply\lex.py:305(token)
+   323/81    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+      393    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:68(_get_items)
+        9    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:242(build_backend_type)
+        4    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\api.py:877(update_accessors)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Cipher\_mode_ctr.py:89(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Cipher\AES.py:81(_create_base_cipher)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\shutil.py:197(copyfileobj)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1358(read)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1448(_read1)
+      393    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:69(<listcomp>)
+      186    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+       12    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:589(global_cache)
+        7    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+       20    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1486(_read2)
+        7    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:680(p_decl_body)
+       26    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\plyparser.py:55(_token_coord)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile_aes.py:78(decrypt)
+       24    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\plyparser.py:125(param_rule)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Cipher\_mode_ctr.py:215(decrypt)
+        7    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:375(_build_declarations)
+    35/28    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:74(__eq__)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:316(build_backend_type)
+      210    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\ply\yacc.py:240(__getitem__)
+       11    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1105(p_direct_xxx_declarator_1)
+      729    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        8    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:821(p_type_specifier_no_typeid)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:189(_preprocess)
+       12    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\weakref.py:165(__setitem__)
+      496    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      5/2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:597(_get_type_and_quals)
+       25    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_lexer.py:505(t_ID)
+       13    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:306(_fix_decl_name_type)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile_aes.py:316(check_integrity)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:255(_common_type_names)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile_aes.py:299(check_wz_aes)
+       26    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\plyparser.py:49(_coord)
+      167    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\ply\yacc.py:248(__setitem__)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1276(p_parameter_declaration_2)
+       11    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:861(p_init_declarator)
+       11    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:852(p_init_declarator_list)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile_aes.py:82(check_hmac)
+       20    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1412(p_direct_abstract_declarator_3)
+       52    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\ply\yacc.py:268(lexpos)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1262(get_decompressor)
+        4    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_lexer.py:273(t_PPHASH)
+        5    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:765(p_declaration_specifiers_no_type_2)
+       12    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\weakref.py:348(__new__)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {built-in method zlib.decompressobj}
+        1    0.000    0.000    0.000    0.000 {method 'decompress' of 'zlib.Decompress' objects}
+       17    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\plyparser.py:42(optrule)
+        9    0.000    0.000    0.000    0.000 {built-in method _cffi_backend.new_function_type}
+       12    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:201(_lex_type_lookup_func)
+       12    0.000    0.000    0.000    0.000 {method 'load_function' of '_cffi_backend.CLibrary' objects}
+        8    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\ply\lex.py:263(begin)
+        5    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:801(p_declaration_specifiers_6)
+       14    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:351(_add_declaration_specifier)
+        5    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:529(p_translation_unit_2)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1170(p_direct_xxx_declarator_6)
+       12    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\weakref.py:353(__init__)
+       11    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1093(p_xxx_declarator_1)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:174(build_backend_type)
+       34    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\ply\yacc.py:254(__len__)
+       26    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\ply\yacc.py:257(lineno)
+       71    0.000    0.000    0.000    0.000 {method 'group' of 're.Match' objects}
+        4    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_lexer.py:303(t_ppline_NEWLINE)
+       12    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:182(_is_type_in_scope)
+       11    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1087(p_declarator)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1763(p_constant_1)
+       12    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\weakref.py:134(__getitem__)
+        9    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_lexer.py:352(t_NEWLINE)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:167(_remove_line_directives)
+        4    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:796(p_declaration_specifiers_5)
+        9    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:837(p_type_specifier)
+       26    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:740(p_declaration)
+       71    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1244(p_parameter_list)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1199(p_pointer)
+        5    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:807(p_storage_class_specifier)
+       12    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\weakref.py:195(get)
+        7    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:545(p_external_declaration_2)
+        3    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:264(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method _cffi_backend.new_array_type}
+        2    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
+       26    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\plyparser.py:20(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1564(p_typedef_name)
+        4    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_lexer.py:287(t_ppline_FILENAME)
+        9    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:163(_add_typedef_name)
+       16    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:513(p_translation_unit_or_empty)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\Counter.py:25(new)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:98(_preprocess_extern_python)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_lexer.py:73(input)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1393(_update_crc)
+       22    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_ast.py:716(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'bytes' objects}
+       12    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFCFECFCC60}
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:588(_get_type_pointer)
+       26    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+       13    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_ast.py:955(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:297(__init__)
+       13    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:347(<listcomp>)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1235(p_parameter_type_list)
+        7    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1849(p_empty)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\ply\lex.py:251(input)
+       23    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1382(p_abstract_declarator_2)
+        4    0.000    0.000    0.000    0.000 {method 'finditer' of 're.Pattern' objects}
+        9    0.000    0.000    0.000    0.000 {method 'count' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_ast.py:383(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'flush' of 'zlib.Decompress' objects}
+        1    0.000    0.000    0.000    0.000 D:\GameDev-Programming\Python\Solo Projects 3\brute force zip file open\threaded version.py:33(__init__)
+        3    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:576(_extract_quals)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:180(_put_back_line_directives)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:870(_parse_constant)
+        3    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:251(_type_modify_decl)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1568(p_assignment_expression)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\ply\yacc.py:234(__init__)
+        9    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_ast.py:974(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:522(p_translation_unit_1)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1610(p_binary_expression)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1601(p_conditional_expression)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:172(_add_identifier)
+        9    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+       11    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        3    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:12(qualify)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_ast.py:637(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method maketrans}
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\py3compat.py:162(_copy_bytes)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_lexer.py:68(reset_lineno)
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        4    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_lexer.py:294(t_ppline_LINE_NUMBER)
+        1    0.000    0.000    0.000    0.000 {built-in method _cffi_backend.new_primitive_type}
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1674(p_postfix_expression_1)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_ast.py:169(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1713(p_primary_expression_2)
+        2    0.000    0.000    0.000    0.000 {method 'search' of 're.Pattern' objects}
+        4    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\model.py:310(length_is_unknown)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1387(p_abstract_declarator_3)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_ast.py:352(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1636(p_cast_expression_1)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:1644(p_unary_expression_1)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_ast.py:815(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_ast.py:994(__init__)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:148(_warn_for_string_literal)
+        5    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\cparser.py:50(_get_parser)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_ast.py:569(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\cffi\commontypes.py:25(resolve_common_type)
+        1    0.000    0.000    0.000    0.000 {built-in method time.time}
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pyzipper\zipfile.py:1400(check_crc)
+        2    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_parser.py:210(_get_yacc_lookahead_token)
+        2    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.BufferedWriter' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_ast.py:833(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\Cryptodome\Util\_raw_api.py:274(release)
+        1    0.000    0.000    0.000    0.000 C:\Users\USER\AppData\Local\Programs\Python\Python39\lib\site-packages\pycparser\c_lexer.py:465(t_INT_CONST_DEC)
+        1    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+
+
+
+Finished
+
+Password: 'asdf'
+duration: -0.00797891616821289 seconds
+
+Process finished with exit code 0
